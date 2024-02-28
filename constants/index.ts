@@ -1,4 +1,3 @@
-import Link from "next/link";
 export const Skill_data = [
   {
     skill_name: "Css",
@@ -32,31 +31,25 @@ export const Skill_data = [
     width: 80,
     height: 80,
   },  
+  {
+    skill_name: "Node js",
+    Image: "/Node.png",
+    width: 80,
+    height: 80,
+  },
 ];
   
-  export const Frontend_skill = [
-   
-  ];
+ 
   
   export const Backend_skill = [
-    {
-      skill_name: "Node js",
-      Image: "/Node.png",
-      width: 80,
-      height: 80,
-    },
+    
   ];
   
-  export const Full_stack = [
   
-  ];
-  export const Other_skill = [
-  ];
   export const Socials = [
     {
       name: "Insagram",
       src: "/insta.png",
-      URL: "www.youtube.com"
       
     },
     {

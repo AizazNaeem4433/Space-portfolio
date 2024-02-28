@@ -5,7 +5,7 @@ import SkillText from "./components/sub/SkillText";
 import Projects from "./components/main/Projects";
 import ProjectCard from "./components/sub/Projectcard";
 import Encryption from "./components/main/Encryption";
-import Footer from "./components/main/About_me";
+import Footer from "./components/main/Footer";
 export default function Home() {
   return (
     <main className="h-full w-full">
@@ -15,8 +15,8 @@ export default function Home() {
      <Skills/>
      <Encryption/>
      <Projects/>
-     </div>
      
+     </div>
     </main>
   );
 }
